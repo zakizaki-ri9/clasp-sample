@@ -1,4 +1,3 @@
-
 # はじめに
 
 [google/clasp](https://github.com/google/clasp)を用いたgasのサンプル。  
@@ -75,8 +74,8 @@ function main() {
 !appsscript.json
 ```
 
-上記ファイルの作成が終わったらデプロイ実施、  
-そのままデプロイされているか確認します。  
+上記ファイルの作成が終わったらデプロイ実施、  
+そのままデプロイされているか確認します。  
 
 ```bash
 # デプロイ(push)
@@ -89,9 +88,9 @@ clasp open
 `src/sample.gs`というファイル名が作成されていたら、  
 デプロイおkです。  
 
-## GitHubへのpush
+## GitHubへのpush
 
-不要なファイルをコミットしないよう、  
+不要なファイルをコミットしないよう、  
 `.gitignore`を作成・設定します。  
 
 **.gitignore**
